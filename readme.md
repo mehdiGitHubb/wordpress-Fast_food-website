@@ -1,3 +1,40 @@
+## Home Page :<br><br>
+
+
+<p ><atarget="_blank"><img src="wp-content/home page.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/home page 2.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/home page 3.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/home page 4.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/home page 5.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/home page 6.png" width="1000" alt="Laravel Logo"></a></p>
+<br><br>
+
+
+
+## SEE MENU AND ORDER :<br><br>
+
+<p ><atarget="_blank"><img src="wp-content/ordering page.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/panee.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/comande.png.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/att accesptation.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/apk order.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/comande accpti.png" width="1000" alt="Laravel Logo"></a></p>
+<br><br>
+
+## TABLE RESERVATION :<br><br>
+
+<p ><atarget="_blank"><img src="wp-content/resrvation de table.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/rserv tablae 2.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/att de accptation.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/apk reserv table.png" width="1000" alt="Laravel Logo"></a></p>
+<p ><atarget="_blank"><img src="wp-content/resrvation accptoiii.png" width="1000" alt="Laravel Logo"></a></p>
+
+<br><br>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
