@@ -1,0 +1,282 @@
+.glf-btn-basic {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/** Restaurant menu - START **/
+.glf-mor-restaurant-menu-item {
+    margin-bottom: 1rem;
+}
+
+.glf-mor-restaurant-menu-item-header {
+    display: flex;
+}
+
+.glf-mor-restaurant-menu-item-header h5 {
+    margin: 0 0.5rem 0 0;
+}
+
+.glf-mor-restaurant-menu-category {
+    padding-top: 3rem;
+}
+
+.glf-mor-restaurant-menu-category:first-of-type {
+    padding-top: 0;
+}
+
+.glf-mor-restaurant-menu-category-description {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    padding-top: 0.5rem;
+}
+
+.glf-mor-restaurant-menu-item-inner {
+    display: flex;
+}
+
+.glf-mor-restaurant-menu-item-inner img {
+    margin-right: 0.5rem;
+    max-width: fit-content;
+}
+
+.glf-mor-restaurant-menu-item-price {
+    margin-left: auto;
+    white-space: nowrap;
+}
+.glf-mor-restaurant-menu-item-price span.from{
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+
+/** Restaurant menu - END **/
+
+/** Opening Hours - START **/
+.glf-widget-opening-hours .glf-opening-entry{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.glf-widget-opening-hours .glf-open-type{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+/** Opening Hours - END **/
+
+/** Promotions - START **/
+.glf-widget-promotions {
+    max-width: 950px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.glf-widget-promotions .glf-promotions-list{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.glf-promotions-list .glf-promotion-deal{
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    width: 48%;
+    min-width: 445px;
+    padding: 20px;
+    min-height: 264px;
+}
+
+.glf-promotion-deal .deal-background{
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.glf-promotion-deal .deal-background:not(.empty):after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: linear-gradient(0deg, transparent 45%, rgba(0, 0, 0, .4));
+    background-color: rgba(0, 0, 0, .15);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .1);
+}
+.glf-promotion-deal .deal-details{
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+    z-index: 2;
+}
+.glf-promotion-deal .deal-details .deal-title{
+    color: inherit;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+}
+.glf-promotion-deal .deal-details .deal-description p{
+    margin: 0;
+    color: inherit;
+    font-weight: 400;
+    line-height: 16px;
+    padding-top: .5rem !important;
+}
+
+.glf-promotion-deal .deal-conditions p {
+    margin: 0;
+    color: inherit;
+    font-weight: 400;
+    line-height: 16px;
+    padding-top: 2rem !important;
+    padding-bottom: .5rem !important;
+}
+
+.glf-promotion-deal .deal-conditions .deal-list{
+    list-style-type: none;
+    margin: 0;
+}
+
+.glf-promotion-deal .deal-conditions .deal-list li{
+    padding-left: 20px;
+}
+.glf-promotion-deal .deal-conditions .deal-list li:before{
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+}
+
+.glf-promotions-list.type-grid .deal-details .deal-button {
+    align-self: flex-end;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* promotions displayed as horizontal list */
+.glf-promotions-list.type-list {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.glf-promotions-list.type-list .glf-promotion-deal{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.glf-promotions-list.type-list .deal-background{
+    width: 48%;
+}
+
+.glf-promotions-list.type-list .deal-details {
+    color: #000000;
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 264px;
+}
+.deal-details .deal-button{
+    width: 200px;
+    padding: 12.5px;
+    box-sizing: border-box;
+    background-color: #df733c;
+    border-radius: 3px;
+    box-shadow: 0 3px #c96836;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    line-height: 15px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none !important;
+    margin: 3px
+}
+.deal-details .deal-button:hover {
+    background-color: #e07945;
+}
+
+@media screen and (max-width: 1024px) {
+    .glf-promotions-list.type-grid {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .glf-promotions-list.type-grid .glf-promotion-deal{
+        width: 100%;
+        max-width: 700px;
+        height: 300px;
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+
+    .glf-promotions-list.type-grid .glf-promotion-deal:first-child{
+        margin-top: 0;
+    }
+    .glf-promotions-list.type-grid .glf-promotion-deal:last-child{
+        margin-bottom: 30px;
+    }
+
+    .glf-promotions-list.type-list {
+        align-content: center;
+    }
+    .glf-promotions-list.type-list .glf-promotion-deal{
+        flex-direction: column;
+        max-width: 700px;
+        padding: 0;
+        margin: 60px 30px 0 30px;
+    }
+
+    .glf-promotions-list.type-list .glf-promotion-deal:first-child {
+        margin-top: 0;
+    }
+
+    .glf-promotions-list.type-list .glf-promotion-deal:last-child {
+        margin-bottom: 30px;
+    }
+
+    .glf-promotions-list .glf-promotion-deal .deal-background{
+        height: 100%;
+    }
+    .glf-promotions-list.type-list .glf-promotion-deal .deal-background{
+        position: relative;
+        height: 300px;
+    }
+    .glf-promotions-list.type-list .glf-promotion-deal .deal-details{
+        min-height: auto;
+        margin: 30px 30px 0 30px;
+    }
+    .glf-promotions-list.type-list .glf-promotion-deal .deal-details .deal-button{
+        margin-top: 1rem;
+    }
+
+    .glf-promotions-list.type-list .glf-promotion-deal > *{
+        width: 100%;
+    }
+}
+/** Opening Hours - END **/
+.wp-core-ui .button.glf-refresh-button{
+    margin: 0px 10px 20px 10px;
+}
+
+.elementor-glf-button {
+    cursor: pointer;
+}

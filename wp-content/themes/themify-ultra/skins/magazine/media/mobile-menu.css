@@ -1,0 +1,24 @@
+.header-widget .widgettitle{
+	text-align:left
+}
+.header-widget .widgettitle:before{
+	margin-left:0
+}
+.header-top-widgets #main-nav > li > a:after{
+	transform-origin:left;
+	width:100%;
+	display:block
+}
+#main-nav > .page_item_has_children > a:before,
+#main-nav > .menu-item-has-children > a:before{
+    display:none
+}
+.tf_s_dropdown #searchform .tf_icon_wrap{
+	left:0;
+	top:0;
+	transform:none
+}
+.tf_s_dropdown .tf_search_result{
+	left:0;
+	transform:none
+}

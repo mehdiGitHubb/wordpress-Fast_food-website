@@ -1,0 +1,293 @@
+/*
+Skin Name:Ultra Resto
+Version:1.0
+Demo URI:https://themify.me/demo/themes/ultra-resto/
+Required Plugins:builder-contact
+*/
+
+/************************************************************************************
+GENERAL
+*************************************************************************************/
+:root{
+	--theme_accent:#b28040;
+	--theme_accent_semi:rgba(178,128,64,.8);
+}
+body{
+	color:#7e7e7e;
+	font-family:'Public Sans', sans-serif
+}
+a{
+	color:#000
+}
+/* HEADINGS
+================================================ */
+h1,h2,h3,h4,h5,h6{
+	font-family:'Playfair Display', serif
+}
+h1{
+	font-size:3.7em;
+	letter-spacing:-.02em;
+	margin:0 0 .25em
+}
+h2{
+	font-size:3.1em;
+	letter-spacing:-.02em
+}
+/* fancyheading */
+.module-fancy-heading .main-head{
+	text-transform:uppercase;
+	letter-spacing:.04em;
+	font-size:30%;
+	font-weight:normal;
+	font-family:'Public Sans', sans-serif;
+	line-height:3.8
+}
+.module-fancy-heading .sub-head{
+	font-size:100%;
+	margin:0;
+	padding:0
+}
+.module-fancy-heading .main-head + .sub-head:before{
+	border-color:var(--theme_accent);
+	border-width:2px;
+	width:60px
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+/* SITE LOGO
+================================================ */
+#site-logo{
+	font-family:'Playfair Display', serif;
+	font-size:1.9em;
+	font-weight:500;
+	letter-spacing:-.01em
+}
+/* MAIN NAVIGATION
+================================================ */
+#main-nav li > .sub-menu{
+	border-radius:0
+}
+/* HEADER HORIZONTAL/TOPBAR/BOXED-COMPACT
+================================================ */
+.boxed-compact #main-nav > li > a,
+.header-top-bar #main-nav > li > a,
+.header-horizontal #main-nav > li > a{
+	border-bottom:1px solid transparent;
+	padding:.45em 0;
+	margin:0 .8em
+}
+.boxed-compact #main-nav > li > a:hover,
+.boxed-compact #main-nav .current_page_item > a,
+.boxed-compact #main-nav .current-menu-item > a,
+.header-top-bar #main-nav > li > a:hover,
+.header-top-bar #main-nav .current_page_item > a,
+.header-top-bar #main-nav .current-menu-item > a,
+.header-horizontal #main-nav > li > a:hover,
+.header-horizontal #main-nav .current_page_item > a,
+.header-horizontal #main-nav .current-menu-item > a{
+	border-color:#b28040;
+}
+.boxed-compact #main-nav-wrap,
+.header-top-bar #main-nav-wrap,
+.header-horizontal #main-nav-wrap{
+	margin-right:auto;
+	flex:1;
+	order:-1
+}
+.boxed-compact #main-nav,
+.header-top-bar #main-nav,
+.header-horizontal #main-nav{
+	margin-right:auto;
+	margin-top:7px;
+	margin-bottom:7px
+}
+.boxed-compact .pull-down,
+.header-top-bar .pull-down,
+.header-horizontal .pull-down{
+	margin-left:auto
+}
+/* HEADER OVERLAY
+================================================ */
+.header-overlay.transparent-header .fixed-header,
+.header-overlay.mobile-menu-visible #headerwrap{
+	background-color:rgba(255,255,255,.9);
+	color:#000
+}
+.header-overlay.transparent-header .fixed-header .header-icons a,
+.header-overlay.mobile-menu-visible .header-icons a,
+.header-overlay.mobile-menu-visible #header,
+.header-overlay.mobile-menu-visible #header a,
+.header-overlay.mobile-menu-visible #mobile-menu.sidemenu{
+	color:#000
+}
+.header-overlay.transparent-header .fixed-header .header-icons a:hover,
+.header-overlay.mobile-menu-visible .header-icons a:hover,
+.header-overlay.mobile-menu-visible #header a:hover{
+	color:var(--theme_accent)
+}
+/* HEADER CLASSIC
+================================================ */
+.header-classic:not(.mobile_menu_active) .navbar-wrapper{
+	background-color:var(--theme_accent)
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+.loops-wrapper.grid4 > .post,
+.loops-wrapper.grid3 > .post,
+.loops-wrapper.grid2 > .post{
+	text-align:left
+}
+.loops-wrapper.grid4 .post-image,
+.loops-wrapper.grid3 .post-image,
+.loops-wrapper.grid2 .post-image{
+	margin-bottom:0
+}
+.loops-wrapper.grid4 .post-content,
+.loops-wrapper.grid3 .post-content,
+.loops-wrapper.grid2 .post-content{
+	background-color:rgba(0,0,0,.025);
+	padding:15px
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap{
+	background-color:#0b1415;
+	border-top:6px solid var(--theme_accent);
+	padding-top:65px;
+	color:#a7a7a7
+}
+#footerwrap a{
+	color:#fff
+}
+/* FOOTER LOGO
+================================================ */
+#footer-logo{
+	font-family:'Playfair Display', serif;
+	font-size:2.05em;
+	font-weight:500;
+	letter-spacing:-.01em
+}
+/* FOOTER WIDGET
+================================================ */
+.footer-widgets .widgettitle,
+.widgettitle{
+	margin:0 0 2.5em
+}
+
+/************************************************************************************
+WOOCOMMERCE
+*************************************************************************************/
+/* SINGLE PRODUCTS
+================================================ */
+/* price */
+.woocommerce div.product p.price,
+.woocommerce div.product span.price{
+	color:var(--theme_accent);
+	font-family:'Playfair Display',serif;
+	margin:0 0 .75em;
+	transform:none
+}
+.woocommerce div.product p.price{
+	font-size:1.5em
+}
+
+/************************************************************************************
+BUILDER STYLING
+*************************************************************************************/
+/* SLIDER MODULE
+================================================ */
+.testimonial-author{
+	display:flex;
+	align-content:center;
+	justify-content:center;
+}
+.person-name{
+	text-transform:uppercase
+}
+.testimonial-author .person-name,
+.testimonial-author .person-position,
+.testimonial-author .person-company{
+	margin:0 3px
+}
+/* arrows & pager */
+div.themify_builder_slider_vertical .carousel-prev,
+div.themify_builder_slider_vertical .carousel-next{
+	background-color:transparent;
+	color:var(--theme_accent);
+	border:1px solid var(--theme_accent);
+	padding:21px 18px
+}
+div.themify_builder_slider_vertical .carousel-prev:hover,
+div.themify_builder_slider_vertical .carousel-next:hover{
+	background-color:var(--theme_accent);
+	border-color:#fff
+}
+.themify_builder_slider_wrap .carousel-pager a{
+	width:1em;
+	height:1em;
+	margin:0 4px
+}
+.themify_builder_slider_wrap .carousel-pager a:hover,
+.themify_builder_slider_wrap .carousel-pager a.selected{
+	color:var(--theme_accent)
+}
+.themify_builder_slider_wrap .carousel-pager a,
+.themify_builder_slider_wrap .carousel-pager a:hover,
+.themify_builder_slider_wrap .carousel-pager a.selected{
+	border-width:.5em
+}
+/* SERVICE MENU MODULE
+================================================ */
+.module.image-horizontal .tb-menu-title-wrap{
+	max-width:none
+}
+.tb-menu-price{
+	font-family:'Playfair Display',serif;
+	font-weight:500
+}
+/* VIDEO MODULE
+================================================ */
+.tb_video_overlay:hover{
+	opacity:1
+}
+/* BUTTON MODULE
+================================================ */
+.ui.builder_button{
+	background-color:var(--theme_accent);
+	text-transform:uppercase;
+	font-size:.8em;
+	font-weight:normal;
+	letter-spacing:.04em;
+	padding:1.1em 2em;
+}
+.ui.builder_button:hover{
+	background-color:var(--theme_accent_hover);
+}
+.builder_button.transparent:hover{
+	background-color:transparent
+}
+.module.module-buttons .ui.tb_default_color{
+	color:#fff
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+@media(max-width:680px){
+	h1{
+		font-size:2.5em
+	}
+	h2{
+		font-size:2.1em;
+	}
+	div.themify_builder_slider_vertical .carousel-prev,
+	div.themify_builder_slider_vertical .carousel-next{
+		padding:13px 10px
+	}
+}

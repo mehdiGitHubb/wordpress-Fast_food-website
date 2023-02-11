@@ -1,0 +1,27 @@
+/* Themify Customize Styling */
+h1 {	
+	font-family: "Playfair Display";	font-weight:500;
+	font-size:95px;
+ 
+}
+h2 {	
+	font-family: "Playfair Display";	font-weight:500;
+ 
+}
+h3 {	
+	font-family: "Playfair Display";	font-weight:500;
+ 
+}
+#header {	
+	font-family: "Playfair Display";	font-weight:500;
+ 
+}
+body #site-logo a {		font-style:normal;
+ 
+}
+#main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
+	color: #ffffff; 
+}
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #c9c9c9; 
+}
