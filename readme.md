@@ -2,7 +2,7 @@
 
 
 <p ><atarget="_blank"><img src="wp-content/home page.png" width="1000" alt="Laravel Logo"></a></p>
-      OUR STORT :<br>
+      OUR STORT :<br><br><br>
 <p ><atarget="_blank"><img src="wp-content/home page 2.png" width="1000" alt="Laravel Logo"></a></p>
       MENU : <br>
 <p ><atarget="_blank"><img src="wp-content/home page 3.png" width="1000" alt="Laravel Logo"></a></p>
